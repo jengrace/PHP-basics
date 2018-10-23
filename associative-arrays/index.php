@@ -1,14 +1,4 @@
 <?php
-/*
-
--Let's say you're in a band which has a catalog of 4 albums. Create a page in the browser to display each album with a
-price next to it. Use an associative array with a foreach loop.
-
--Let's add to your band's imaginary homepage. You are going to be playing 6 shows. Create an associative array to store
-the dates with the cities you will be playing in. Now use another foreach loop to display them in the browser underneath
-the albums and songs currently for sale.
-
-*/
 
 $album_prices = array("Chaos Theory" => 5, "Apparatus" => 10, "Eye for an Eye" => 15, "Cat Napped" => 20);
 $tour_dates = array("Florida" => "10/10/2018", "California" => "11/02/2018", "Arizona" => "11/10/2018",
@@ -28,6 +18,7 @@ $tour_dates = array("Florida" => "10/10/2018", "California" => "11/02/2018", "Ar
     <div class="container">
         <h1>The Collapsing Hats</h1>
         <h2>Albums</h2>
+        <div><?php echo $foo ?></div>
         <div>
             <ul>
                 <?php
